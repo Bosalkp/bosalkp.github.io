@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "MONTSERRAT-BOLD";
+	font-display: swap;
+    src: url("../fonts/MONTSERRAT-BOLD.TTF");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "MONTSERRAT-LIGHT";
+	font-display: swap;
+    src: url("../fonts/MONTSERRAT-LIGHT.TTF");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "MONTSERRAT-REGULAR";
+	font-display: swap;
+    src: url("../fonts/MONTSERRAT-REGULAR.TTF");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "MONTSERRAT-MEDIUM";
+	font-display: swap;
+    src: url("../fonts/MONTSERRAT-MEDIUM.TTF");
+    font-style: normal;
+    font-weight: normal;
+}
