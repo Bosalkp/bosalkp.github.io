@@ -1744,7 +1744,7 @@ ul {
     margin-left: 40px;
 }
 .about-company1 p {
-    color: #1C1C1C;
+    color: #ffffff;
     letter-spacing: 0.04em;
     font-size: 20px;
     font-family: "MONTSERRAT-BOLD";
@@ -1765,7 +1765,7 @@ ul {
 }
 
 .about-company1 h1 {
-    color: #545454;
+    color: #e6e6e6;
     font-size: 16px;
     letter-spacing: 0.04em;
     font-family: "MONTSERRAT-LIGHT";
@@ -1774,7 +1774,7 @@ ul {
 
 .about-company1 h1 span {
     font-size: 22px;
-    color: #1C1C1C;
+    color: #ffffff;
     font-family: "MONTSERRAT-BOLD";
 }
 
@@ -1792,7 +1792,7 @@ ul {
 }
 
 .about-company1 a:hover {
-    background: rgba(255,255,255,0.2) url(../images/header-button2.png) no-repeat;
+    background: rgba(255, 255, 255, 0.2) url(../images/header-button2.png) no-repeat;
     background-position: 0% 50%;
 }
 
