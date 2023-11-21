@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoMods UA - Автомобільні модифікації та аксесуари</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #1a1a1a;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #1a1a1a;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .product-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .product-card {
+            width: 300px;
+            background-color: #fff;
+            margin: 20px;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .product-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .product-title {
+            margin-top: 10px;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        .product-description {
+            margin-top: 5px;
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        /* Стилізація для навігаційних посилань */
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            margin: 0 10px;
+            font-size: 1.2em;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ffd700;
+            /* Золотий колір */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>AutoMods UA</h1>
+        <p>Автомобільні модифікації та аксесуари для вітчизняних автомобілів</p>
+    </header>
+
+    <nav>
+        <a href="#">DAEWOO</a>
+        <a href="#">ZAZ</a>
+        <a href="#">Chevrolet</a>
+        <a href="#">VAZ</a>
+        <a href="#">CHERY</a>
+    </nav>
+
+    <section>
+        <div class="product-list">
+            <div class="product-card">
+                <img class="product-image" src="product1.jpg" alt="Product 1">
+                <h2 class="product-title">Модифікація 1</h2>
+                <p class="product-description">Опис модифікації 1. Додатковий опис чи характеристики товару.</p>
+            </div>
+
+            <div class="product-card">
+                <img class="product-image" src="product2.jpg" alt="Product 2">
+                <h2 class="product-title">Модифікація 2</h2>
+                <p class="product-description">Опис модифікації 2. Додатковий опис чи характеристики товару.</p>
+            </div>
+
+            <!-- Додайте інші продукти за аналогією -->
+        </div>
+    </section>
+
+    <!-- Відсутність розділів для форуму, інструкцій та відгуків -->
+
+    <footer>
+        <p>&copy; 2023 AutoMods UA. Усі права захищено.</p>
+    </footer>
+</body>
+
+</html>
