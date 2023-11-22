@@ -113,12 +113,14 @@ span.wpcf7-not-valid-tip {
   -o-object-fit: cover;
   object-fit: cover
 }
+
 .dil {
   background: url(../images/bg1.jpg) center/cover;
   height: 100vh;
 }
+
 .header .cont {
-  
+
   background: url(../images/black-33.png.pagespeed.ce.z_QF_nvk9V.png) no-repeat;
   background-size: cover;
   width: 100%;
@@ -144,14 +146,14 @@ span.wpcf7-not-valid-tip {
 
 .header .header-top img.logo {
   margin-left: 25px;
-    max-width: 200px;
-    margin-top: 20px;
+  max-width: 200px;
+  margin-top: 20px;
 }
 
 .nav-menu-fixed a img {
   margin-left: 15px;
-    margin-top: 5px;
-    height: 53px;
+  margin-top: 5px;
+  height: 53px;
 }
 
 .header .header-top .bg {
@@ -687,11 +689,13 @@ span.wpcf7-not-valid-tip {
   padding-top: 10px;
   transition: .3s
 }
+
 .left-prh {
   display: inline-block;
   width: 40%;
   vertical-align: top;
 }
+
 .right-prh {
   display: inline-block;
   width: 46%;
@@ -700,6 +704,7 @@ span.wpcf7-not-valid-tip {
   font-size: 20px;
   font-family: "MONTSERRAT-MEDIUM";
 }
+
 .header .content a.purchase:hover {
   border-bottom: none;
   color: #fff
@@ -3446,7 +3451,7 @@ ul.loyalty-nav {
 }
 
 .formPopup form input[name="file-122"]::before {
-  content: " Добавить резюме ";
+  content: " Додати резюме ";
   color: #1c1c1c;
   font-size: 14px;
   font-family: MONTSERRAT-LIGHT;
