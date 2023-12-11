@@ -143,21 +143,22 @@ span.wpcf7-not-valid-tip {
 }
 
 .header {
+    background: url(images/bgg.jpg) center/cover;
     position: relative;
     overflow: hidden;
-    height: 100vh;
+    height: 80vh;
     z-index: 8;
 }
 
-.header video {
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
+.bgg {
+    background: url(../images/bgg.jpg) center/cover;
+
+
 }
 
+
+
 .header .cont {
-    /*background: rgba(000,000,000,0.7);*/
     background: url(../images/black-33.png) no-repeat;
     background-size: cover;
     width: 100%;
@@ -169,10 +170,14 @@ span.wpcf7-not-valid-tip {
 }
 
 .header .header-top {
+
     position: fixed;
     top: 0;
     width: 100%;
+    height: 90px;
     z-index: 855;
+    transition: background-color 0.5s ease;
+    border-bottom: 1px solid transparent;
 }
 
 .header-top .row {
@@ -234,26 +239,21 @@ span.wpcf7-not-valid-tip {
 }
 
 .header .header-top a.menu {
-    color: #ffffff;
+    height: 65px;
     font-size: 22px;
     font-family: "MONTSERRAT-LIGHT";
     text-decoration: none;
-    background: url(../images/burger.svg) no-repeat;
-    background-position: 3px 50%;
-    background-size: 33px 21px;
-    padding: 4px 4px 4px 50px;
+    padding: 10px 10px 10px 10px;
     display: table;
     margin-top: 25px;
     cursor: pointer;
-    transition: .7s;
-    -moz-transition: .7s;
-    -o-transition: .7s;
+    transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
 }
 
 .header .header-top a.menu:hover {
-    background: url(../images/burger.svg) no-repeat, rgba(0, 0, 0, 0.4);
-    background-position: 3px 50%;
-    background-size: 33px 21px;
+    border-bottom: #940A0A 5px solid;
 }
 
 .header .header-top a.contact {
@@ -1483,21 +1483,24 @@ span.wpcf7-not-valid-tip {
 
 /* ===============  bl-4  =============== */
 .bl-4 {
+    margin-top: 80px;
     position: relative;
     z-index: 2;
     overflow: hidden;
-    height: 100vh;
+    height: 50vh;
 }
 
-.bl-4 video {
-    width: 100%;
+.black-33 {
+    background: url(../images/black-33.png) no-repeat;
+    background-size: cover;
     height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
 }
 
 .bl-4 .cont {
-    background: rgba(000, 000, 000, 0.6);
+    background-repeat: no-repeat;
+    background-image: url(../images/bg1.jpg);
+    background-position: 50% 50%;
+    background-attachment: fixed;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -1519,7 +1522,7 @@ span.wpcf7-not-valid-tip {
     line-height: 35px;
     font-size: 22px;
     font-family: "MONTSERRAT-MEDIUM";
-    margin-top: 30vh;
+    margin-top: 20vh;
 }
 
 .bl-4 img {
@@ -1574,6 +1577,12 @@ span.wpcf7-not-valid-tip {
     z-index: 1;
 }
 
+.redd {
+    display: block;
+    width: 100%;
+    height: 50px;
+    background-color: #C11E1E;
+}
 
 
 /* ===============  footer  =============== */
@@ -3494,12 +3503,13 @@ ul.loyalty-nav {
 }
 
 .career1 {
-    padding: 100px 0 0 0;
+    padding: 60px 0 0 0;
 }
 
 .career1 h2 {
+    text-align: center;
     width: 100%;
-    max-width: 970px;
+
     line-height: 30px;
     color: #606060;
     font-size: 22px;
@@ -3509,13 +3519,18 @@ ul.loyalty-nav {
 }
 
 .career1 h4 {
+    text-align: center;
     width: 100%;
-    max-width: 970px;
+
     color: #1C1C1C;
-    font-size: 46px;
+    font-size: 50px;
     font-family: "MONTSERRAT-BOLD";
-    margin-bottom: 90px;
-    margin-top: 90px;
+    margin-bottom: 40px;
+    margin-top: 60px;
+}
+
+.red {
+    border-top: 1px solid #C11E1E;
 }
 
 .career1 .coll .coll-link {
@@ -4358,7 +4373,7 @@ ul.loyalty-nav {
 
 /* ===============  blog  =============== */
 .blog {
-    height: 100vh;
+    height: 80vh;
 }
 
 .blog .content .scroll-down {

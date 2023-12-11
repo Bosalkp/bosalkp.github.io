@@ -103,7 +103,7 @@ span.wpcf7-not-valid-tip {
 .header {
   position: relative;
   overflow: hidden;
-  height: 100vh;
+  height: 80vh;
   z-index: 8
 }
 
@@ -133,11 +133,13 @@ span.wpcf7-not-valid-tip {
 }
 
 .header .header-top {
+  background-color: #fff;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 855
 }
+
 
 .header-top .row {
   z-index: 555;
